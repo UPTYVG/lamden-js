@@ -95,7 +95,7 @@ let receiverVk = "bb0fab41b9118f0afdabf3721fa9a6caae3c93845ed409d3118841065ad1a1
 
 // Kwargs are the arugments you will send the contract method.  
 // For example the "currency" contract's "transfer" method needs two arguments to create a transfter; the person reciving the TAU and the amount to transfer.  So we create a kwargs object like so.
-let kwargs: {
+let kwargs = {
         to: receiverVk,
         amount: 1000
 }
